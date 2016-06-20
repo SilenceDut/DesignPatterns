@@ -1,4 +1,4 @@
-package com.silencedut;
+package com.silencedut.StrategyPattern;
 
 public class Main {
 
