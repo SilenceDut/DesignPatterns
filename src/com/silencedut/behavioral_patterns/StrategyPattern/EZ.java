@@ -6,8 +6,8 @@ package com.silencedut.behavioral_patterns.StrategyPattern;
 
  class EZ extends Character {
      EZ() {
-        skill = new TwoLifeSkill();
-    }
+        skill = SkillFlyWeightFactory.getSkill(TwoLifeSkill.class);
+     }
 
     @Override
     void showName() {

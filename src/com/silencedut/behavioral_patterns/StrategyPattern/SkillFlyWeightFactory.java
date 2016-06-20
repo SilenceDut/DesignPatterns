@@ -10,5 +10,28 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 
 public class SkillFlyWeightFactory {
-    public static Map<String,Skill> sSkillMap = new ConcurrentHashMap<>();
+    private static Map<String,Skill> sSkillMap = new ConcurrentHashMap<>();
+
+    public static Skill getSkill(Class<? extends Skill> skillClass ) {
+        if(skillClass==null) {
+            return null;
+        }
+        String skillName = skillClass.getSimpleName();
+        if(sSkillMap.containsKey(skillName)) {
+            return sSkillMap.get(skillName);
+        }else {
+            Skill skill = null;
+            try {
+                skill = skillClass.newInstance();
+                sSkillMap.put(skillName,skill);
+                return skill;
+            } catch (InstantiationException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+            return skill;
+        }
+
+    }
 }

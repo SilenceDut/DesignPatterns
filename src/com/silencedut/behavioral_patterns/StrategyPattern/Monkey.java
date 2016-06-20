@@ -6,7 +6,7 @@ package com.silencedut.behavioral_patterns.StrategyPattern;
 
  class Monkey extends Character {
      Monkey() {
-        skill =new  HideSkill();
+        skill =SkillFlyWeightFactory.getSkill(HideSkill.class);
     }
 
     @Override

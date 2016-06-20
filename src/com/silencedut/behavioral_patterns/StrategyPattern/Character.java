@@ -8,7 +8,7 @@ package com.silencedut.behavioral_patterns.StrategyPattern;
  */
  abstract class Character {
     Skill skill;
-     void setSkill(Skill skill) {
+    void setSkill(Skill skill) {
         this.skill=skill;
     }
 
