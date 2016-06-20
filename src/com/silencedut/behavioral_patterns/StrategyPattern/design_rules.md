@@ -15,7 +15,8 @@
 
 ##模式原则
 策略模式——定义算法族,分别封装起来,让他们之间可以互相替换,此模式让使用算法的变化独立于使用算法的客户。
-[**UML**](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/StrategyUML/strategy_uml.png)
+
+![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/StrategyUML/strategy_uml.png)
 
 ##优缺点
 策略模式的优点
