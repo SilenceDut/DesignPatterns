@@ -1,9 +1,4 @@
-##OO(Object-Oriented)基础
--  抽象
--  封装
--  继承
--  多态
-
+#StrategyPattern(策略模式)
 ##模式引入由来
 -  继承可以使代码复用,但继承导致对局部（比如父类）进行修改时,影响层面不只是局部,当涉及维护时,为了复用而使用继承结局并不完美
 -  接口会导致代码的复用性降低
@@ -66,7 +61,6 @@ PropertyValueHolder主要是在ObjectAnimator里通过属性的get和set方法�
             cancel();
             return;
         }
-
         super.animateValue(fraction);//调用ValueAnimator的animateValue()方法
         int numValues = mValues.length;
         for (int i = 0; i < numValues; ++i) {
