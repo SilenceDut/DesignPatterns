@@ -17,4 +17,4 @@
 
 ##具体模式
 ### 行为型模式
-- [**StrategyPattern(策略模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/StrategyPattern/design_rules.md) 
+- 封装可以互换的行为,并使用委托来决定要使用哪一个——[**StrategyPattern(策略模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/StrategyPattern/design_rules.md) 
