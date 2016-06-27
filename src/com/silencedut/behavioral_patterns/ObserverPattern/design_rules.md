@@ -9,7 +9,7 @@
 ##模式原则
 观察者模式——定义了对象间的一对多依赖,这样一来,当一个对象改变状态时,他所有的通知都会收到通知并自动更新。
 
-![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/ObserverMML/observer_uml.png)
+![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/ObserverUML/observer_uml.png)
 
 ##优缺点
 策略模式的优点
