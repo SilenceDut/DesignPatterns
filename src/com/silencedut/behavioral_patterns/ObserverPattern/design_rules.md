@@ -1,36 +1,34 @@
 #ObserverPattern(观察者模式)
 ##模式引入由来
--  
--  
+-  建立一种对象与对象之间的依赖关系，一个对象发生改变时将自动通知其他对象，其他对象将相应做出反应
+-  观察者之间没有相互联系,可以根据需要增加和删除观察者，使得系统更易于扩展。
 
 ##涉及的设计原则
-
+为了交互对象间的松耦合设计而努力。
 
 ##模式原则
-策略模式——定义算法族,分别封装起来,让他们之间可以互相替换,此模式让使用算法的变化独立于使用算法的客户。
+观察者模式——定义了对象间的一对多依赖,这样一来,当一个对象改变状态时,他所有的通知都会收到通知并自动更新。
 
-![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/StrategyUML/strategy_uml.png)
+![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/ObserverMML/observer_uml.png)
 
 ##优缺点
 策略模式的优点
 
-- 策略模式提供了对“开闭原则”的完美支持，用户可以在不修改原有系统的基础上选择算法或行为，也可以灵活地增加新的算法或行为。
-- 策略模式提供了管理相关的算法族的办法。
-- 策略模式提供了可以替换继承关系的办法。
-- 使用策略模式可以避免使用多重条件转移语句。
+- 观察者模式可以实现表示层和数据逻辑层的分离，并定义了稳定的消息更新传递机制，抽象了更新接口，使得可以有各种各样不同的表示层作为具体观察者角色。
+- 观察者模式在观察目标和观察者之间建立一个抽象的耦合。
+- 观察者模式符合“开闭原则”的要求。
 
 策略模式的缺点
 
-- 客户端必须知道所有的策略类，并自行决定使用哪一个策略类。
-- 策略模式将造成产生很多策略类，可以通过使用[**享元模式(对象复用)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/StrategyPattern/SkillFlyWeightFactory.java) 在一定程度上减少对象的数量。
+- 如果一个观察目标对象有很多直接和间接的观察者的话，将所有的观察者都通知到会花费很多时间。
+- 如果在观察者和观察目标之间有循环依赖的话，观察目标会触发它们之间进行循环调用，可能导致系统崩溃。
 
 ##使用场景
-- 同一类型问题多重处理方式,仅仅是具体行为差别时
-- 一个系统需要动态地在几种算法中选择一种。
-- 如果一个对象有很多的行为，如果不用恰当的模式，这些行为就只好使用多重的条件选择语句来实现。
-- 不希望客户端知道复杂的、与算法相关的数据结构，在具体策略类中封装算法和相关的数据结构，提高算法的保密性与安全性。
+- 一个抽象模型有两个方面，其中一个方面依赖于另一个方面。将这些方面封装在独立的对象中使它们可以各自独立地改变和复用。
+- 一个对象的改变将导致其他一个或多个对象也发生改变，而不知道具体有多少对象将发生改变，可以降低对象之间的耦合度。
+- 一个对象必须通知其他对象，而并不知道这些对象是谁。
 
-[**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/StrategyPattern)
+[**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/ObserverPattern)
 
 ##Android中的源码解析
 ![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/StrategyUML/Strategy_ValueAnimator.png)
