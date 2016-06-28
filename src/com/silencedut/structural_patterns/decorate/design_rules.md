@@ -37,4 +37,5 @@
 长；第二类是因为类定义不能继承（如final类）.
 - 在不影响其他对象的情况下，以动态、透明的方式给单个对象添加职责。
 
+##Demo
 [**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/ObserverPattern)

@@ -28,4 +28,5 @@
 - 一个对象的改变将导致其他一个或多个对象也发生改变，而不知道具体有多少对象将发生改变，可以降低对象之间的耦合度。
 - 一个对象必须通知其他对象，而并不知道这些对象是谁。
 
+##Demo
 [**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/ObserverPattern)
