@@ -8,7 +8,7 @@
 2. 针对接口编程,而不是针对实现编程。针对接口编程,实际上是针对父类编程。
 3. 多用组合,少用继承。
 
-##模式原则
+##模式定义
 策略模式——定义算法族,分别封装起来,让他们之间可以互相替换,此模式让使用算法的变化独立于使用算法的客户。
 
 ![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/StrategyUML/strategy_uml.png)
