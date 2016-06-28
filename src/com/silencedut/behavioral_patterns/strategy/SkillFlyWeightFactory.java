@@ -1,4 +1,4 @@
-package com.silencedut.behavioral_patterns.StrategyPattern;
+package com.silencedut.behavioral_patterns.strategy;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

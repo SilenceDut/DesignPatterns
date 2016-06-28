@@ -1,4 +1,4 @@
-package com.silencedut.behavioral_patterns.ObserverPattern;
+package com.silencedut.behavioral_patterns.observer;
 
 
 import java.util.ArrayList;
