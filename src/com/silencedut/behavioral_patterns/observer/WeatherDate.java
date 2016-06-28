@@ -8,7 +8,7 @@ import java.util.List;
  * Created by SilenceDut on 16/6/27.
  */
 
-public class WeatherDate implements Subject {
+ class WeatherDate implements Subject {
     private List<Observer> observers = new ArrayList<>();
     @Override
     public void registerObserver(Observer observer) {

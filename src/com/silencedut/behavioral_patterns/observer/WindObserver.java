@@ -4,7 +4,7 @@ package com.silencedut.behavioral_patterns.observer;
  * Created by SilenceDut on 16/6/27.
  */
 
-public class WindObserver implements Observer {
+ class WindObserver implements Observer {
     Subject mSubject;
     WindObserver(Subject subject) {
         this.mSubject = subject;

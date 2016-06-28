@@ -4,7 +4,7 @@ package com.silencedut.behavioral_patterns.observer;
  * Created by SilenceDut on 16/6/27.
  */
 
-public class TemperatureObserver implements Observer {
+ class TemperatureObserver implements Observer {
     Subject mSubject;
     TemperatureObserver(Subject subject) {
         this.mSubject = subject;
