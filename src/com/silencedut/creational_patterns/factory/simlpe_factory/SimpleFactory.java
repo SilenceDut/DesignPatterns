@@ -1,8 +1,8 @@
-package com.silencedut.creational_patterns.factoty.simlpe_factory;
+package com.silencedut.creational_patterns.factory.simlpe_factory;
 
-import com.silencedut.creational_patterns.factoty.BWM;
-import com.silencedut.creational_patterns.factoty.Benz;
-import com.silencedut.creational_patterns.factoty.Car;
+import com.silencedut.creational_patterns.factory.BWM;
+import com.silencedut.creational_patterns.factory.Benz;
+import com.silencedut.creational_patterns.factory.Car;
 
 /**
  * Created by SilenceDut on 16/6/29.
