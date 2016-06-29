@@ -24,7 +24,7 @@
 策略模式的缺点
 
 - 客户端必须知道所有的策略类，并自行决定使用哪一个策略类。
-- 策略模式将造成产生很多策略类，可以通过使用[**享元模式(对象复用)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/StrategyPattern/SkillFlyWeightFactory.java) 在一定程度上减少对象的数量。
+- 策略模式将造成产生很多策略类，可以通过使用[**享元模式(对象复用)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/strategy/SkillFlyWeightFactory.java) 在一定程度上减少对象的数量。
 
 ##使用场景
 - 同一类型问题多重处理方式,仅仅是具体行为差别时
