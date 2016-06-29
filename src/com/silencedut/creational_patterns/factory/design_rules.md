@@ -56,6 +56,8 @@
 - 可以通过反射来减少工厂子类的数目。
 
 ##Demo
-[**静态工厂模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/simple_factory)
-[**工厂方法模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/factory_method)
+[**静态工厂模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/factory/simple_factory)
+
+[**工厂方法模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/factory/factory_method)
+
 [**反射工厂模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/factory)
