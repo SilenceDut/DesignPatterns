@@ -2,7 +2,7 @@ package com.silencedut.creational_patterns.factory;
 
 import com.silencedut.creational_patterns.factory.factory_method.BWMFactory;
 import com.silencedut.creational_patterns.factory.factory_method.BenzFactory;
-import com.silencedut.creational_patterns.factory.simlpe_factory.SimpleFactory;
+import com.silencedut.creational_patterns.factory.simple_factory.SimpleFactory;
 
 /**
  * Created by SilenceDut on 16/6/29.

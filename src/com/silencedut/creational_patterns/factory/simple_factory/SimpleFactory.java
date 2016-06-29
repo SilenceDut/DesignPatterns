@@ -1,4 +1,4 @@
-package com.silencedut.creational_patterns.factory.simlpe_factory;
+package com.silencedut.creational_patterns.factory.simple_factory;
 
 import com.silencedut.creational_patterns.factory.BWM;
 import com.silencedut.creational_patterns.factory.Benz;
