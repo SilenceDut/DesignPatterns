@@ -22,21 +22,19 @@ import java.util.concurrent.ConcurrentHashMap;
  class SkillFlyWeightFactory {
     private static Map<String,Skill> sSkillMap = new ConcurrentHashMap<>();
 
-     static Skill getSkill(Class<? extends Skill> skillClass ) {
+     static <T extends Skill> T getSkill(Class<T> skillClass ) {
         if(skillClass==null) {
             return null;
         }
         String skillName = skillClass.getSimpleName();
         if(sSkillMap.containsKey(skillName)) {
-            return sSkillMap.get(skillName);
+            return (T) sSkillMap.get(skillName);
         }else {
-            Skill skill = null;
+            T skill = null;
             try {
                 skill = skillClass.newInstance();
                 sSkillMap.put(skillName,skill);
-            } catch (InstantiationException e) {
-                e.printStackTrace();
-            } catch (IllegalAccessException e) {
+            } catch (InstantiationException | IllegalAccessException e) {
                 e.printStackTrace();
             }
             return skill;

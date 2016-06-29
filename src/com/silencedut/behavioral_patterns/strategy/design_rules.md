@@ -33,7 +33,7 @@
 - 不希望客户端知道复杂的、与算法相关的数据结构，在具体策略类中封装算法和相关的数据结构，提高算法的保密性与安全性。
 
 ##Demo
-[**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/StrategyPattern)
+[**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/strategy)
 
 ##Android中的源码解析
 ![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/StrategyUML/Strategy_ValueAnimator.png)

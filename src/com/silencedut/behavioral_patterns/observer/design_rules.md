@@ -29,4 +29,4 @@
 - 一个对象必须通知其他对象，而并不知道这些对象是谁。
 
 ##Demo
-[**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/ObserverPattern)
+[**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/observer)

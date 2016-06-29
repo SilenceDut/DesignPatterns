@@ -20,3 +20,4 @@
 - 封装可以互换的行为,并使用委托来决定要使用哪一个——[**StrategyPattern(策略模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/strategy/design_rules.md) 
 - 让对象能够在改变时被通知——[**ObserverPattern(观察者模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/observer/design_rules.md)
 - 包装一个对象,以提供新的行为——[**DecoratePattern(装饰者模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/structural_patterns/decorate/design_rules.md)
+- 由子类决定创建的类是哪一个——[**FactoryMethodPattern(工厂方法模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/factory/design_rules.md)

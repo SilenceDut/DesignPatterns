@@ -39,4 +39,4 @@
 - 在不影响其他对象的情况下，以动态、透明的方式给单个对象添加职责。
 
 ##Demo
-[**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/ObserverPattern)
+[**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/structural_patterns/decorate)
