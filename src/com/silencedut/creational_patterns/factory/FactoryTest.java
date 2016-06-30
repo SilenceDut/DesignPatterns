@@ -23,7 +23,5 @@ public class FactoryTest {
         car.showName();
         car = ReflectionFactory.getCar(BWM.class);
         car.showName();
-
-
     }
 }
