@@ -41,9 +41,7 @@
 
 - 如果一个对象有很多的行为，如果不用恰当的模式，这些行为就只好使用多重的条件选择语句来实现。
 
-- 不希望客户端知道复杂的、与算法相关的数据结构，在具体策略类中封装算法和相关的数据结构，
-
-提高算法的保密性与安全性。
+- 不希望客户端知道复杂的、与算法相关的数据结构，在具体策略类中封装算法和相关的数据结构，提高算法的保密性与安全性。
 
 ##Demo
 [**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/strategy)
@@ -86,4 +84,5 @@ PropertyValueHolder主要是在ObjectAnimator里通过属性的get和set方法�
         }
     }
 ```
+
 因此可以看出,可以通过实现TypeEvaluator实现evaluate方法或者实现TimeEvaluator实现getInterpolation()来"篡改"时间发生的比例来改变传入到evaluate的fraction值,实现自定义动画
