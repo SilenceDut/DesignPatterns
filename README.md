@@ -27,6 +27,6 @@
 
 - 封装对象，提供不同的接口——[**AdapterPattern(适配器模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/structural_patterns/adapter/design_rules.md)
 
-- 简化一群类的接口——[**FacadePattern(工厂方法模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/structural_patterns/facade/design_rules.md)
+- 简化一群类的接口——[**FacadePattern(外观模式模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/structural_patterns/facade/design_rules.md)
 
-- 封装构建过程——[**BuilderPattern(工厂方法模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/builder/design_rules.md)
+- 封装构建过程——[**BuilderPattern(构造者模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/builder/design_rules.md)
