@@ -30,4 +30,4 @@
 - 隔离复杂对象的创建和使用，并使得相同的创建过程可以创建不同的产品。
 
 ##Demo
-[**简化版Builder模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/factory/simple_factory)
+[**简化版Builder模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/creational_patterns/builder)
