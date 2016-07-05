@@ -30,6 +30,3 @@
 - 不能很好地限制客户使用子系统类，如果对客户访问子系统类做太多的限制则减少了可变性和灵活性。
 
 - 在不引入抽象外观类的情况下，增加新的子系统可能需要修改外观类或客户端的源代码，违背了“开闭原则”。
-
-##Demo
-[**适配器模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/structural_patterns/facade)
