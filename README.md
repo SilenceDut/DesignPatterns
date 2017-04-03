@@ -1,11 +1,11 @@
 # DesignPatterns
-##OO基础
+## OO基础
 - 抽象
 - 封装
 - 多态
 - 继承
 
-##面向对象的六大原则
+## 面向对象的六大原则
 - 单一职责原则:一个类中应该是一组相关性很高的函数、数据的封装。
 - 开闭原则 : 软件中的对象（类、模块、函数等）应该对扩展开放,对修改关闭。
 - 里氏替换原则 : 所有引用基类的地方必须能透明地使用其子类对象
@@ -15,7 +15,7 @@
 
 上述原则是一种理想化的情况,实际开发中应朝着这个方向去做。以上原则会在接下来的模式中实践
 
-##具体模式
+## 具体模式
 ### 行为型模式
 - 封装可以互换的行为,并使用委托来决定要使用哪一个——[**StrategyPattern(策略模式)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/strategy/design_rules.md)
  
