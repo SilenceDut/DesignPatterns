@@ -1,10 +1,10 @@
-#StrategyPattern(策略模式)
-##模式引入由来
+# StrategyPattern(策略模式)
+## 模式引入由来
 -  继承可以使代码复用,但继承导致对局部（比如父类）进行修改时,影响层面不只是局部,当涉及维护时,为了复用而使用继承结局并不完美
 
 -  接口会导致代码的复用性降低
 
-##涉及的设计原则
+## 涉及的设计原则
 
 1. 找出应用中可能需要变化之处,把它们独立出来,不要和那些不需要变的代码混在一起。改变时好让其他部分不受影响。
 
@@ -12,12 +12,12 @@
 
 3. 多用组合,少用继承。
 
-##模式定义
+## 模式定义
 策略模式——定义算法族,分别封装起来,让他们之间可以互相替换,此模式让使用算法的变化独立于使用算法的客户。
 
 ![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/StrategyUML/strategy_uml.png)
 
-##优缺点
+## 优缺点
 策略模式的优点
 
 - 策略模式提供了对“开闭原则”的完美支持，用户可以在不修改原有系统的基础上选择算法或行为，也可以灵活地增加新的算法或行为。
@@ -34,7 +34,7 @@
 
 - 策略模式将造成产生很多策略类，可以通过使用[**享元模式(对象复用)**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/strategy/SkillFlyWeightFactory.java) 在一定程度上减少对象的数量。
 
-##使用场景
+## 使用场景
 - 同一类型问题多重处理方式,仅仅是具体行为差别时
 
 - 一个系统需要动态地在几种算法中选择一种。
@@ -43,10 +43,10 @@
 
 - 不希望客户端知道复杂的、与算法相关的数据结构，在具体策略类中封装算法和相关的数据结构，提高算法的保密性与安全性。
 
-##Demo
+## Demo
 [**模式Demo**](https://github.com/SilenceDut/DesignPatterns/blob/master/src/com/silencedut/behavioral_patterns/strategy)
 
-##Android中的源码解析
+## Android中的源码解析
 
 ![image](https://github.com/SilenceDut/DesignPatterns/blob/master/pictures/StrategyUML/Strategy_ValueAnimator.png)
 
